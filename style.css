@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.todo-container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddddddb6;
+    margin-top: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.priority-low {
+    color: green;
+}
+
+.priority-medium {
+    color: orange;
+}
+
+.priority-high {
+    color: red;
+}
